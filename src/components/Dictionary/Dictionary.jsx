@@ -48,9 +48,9 @@ const Dictionary = () => {
 
   return (
     <div className="container">
-      {/* Removed ToggleTheme from here! */}
+      
 
-      {/* Search Bar */}
+      
       <form onSubmit={handleSearch} className="search-bar-container">
         <input
           type="text"
