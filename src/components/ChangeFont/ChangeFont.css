@@ -1,0 +1,16 @@
+.font-selector {
+  margin-left: 20px;
+}
+
+.font-selector select {
+  padding: 8px;
+  border-radius: 6px;
+  background: white;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+body.dark .font-selector select {
+  background: #222;
+  color: white;
+}

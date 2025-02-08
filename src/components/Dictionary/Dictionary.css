@@ -1,0 +1,36 @@
+/* Search Bar */
+.search-bar-container {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid var(--gray-light);
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-button {
+  padding: 12px 15px;
+  border: none;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #9333ea;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}

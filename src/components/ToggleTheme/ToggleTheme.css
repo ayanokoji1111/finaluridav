@@ -1,0 +1,15 @@
+.toggle-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle-icon {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.dark .toggle-icon {
+  transform: rotate(180deg);
+}
